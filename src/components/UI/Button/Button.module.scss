@@ -1,0 +1,19 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem; 
+}
+
+.button button {
+ cursor: pointer;
+ padding: 1rem 2rem;
+ border: 1px solid #192b3c;
+ background-color: #192b3c;
+ color: white;
+ border-radius: 12px;
+ margin-right: 1rem;
+   &:hover{
+     background: #4d6276;
+   }
+}
